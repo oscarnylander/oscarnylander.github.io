@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap');
+
+html {
+    background-color: #1B1B1B;
+    color: #F5F5F5;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p, a, li {
+    line-height: 1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+a {
+    color: #F5F5F5;
+}
+
+i {
+    color: #F5F5F5;
+    font-size: 2rem;
+    margin-left: 8px;
+}
+
+body {
+    opacity: 0;
+    transform: translateY(-100px);
+}
+
+.loaded {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 
+        opacity 0.5s cubic-bezier(0.550, 0.055, 0.675, 0.190),
+        transform 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+}
+
+.first-section {
+    margin-top: 5rem;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.second-section {
+    margin-top: 2rem;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.code-icon {
+    font-size: 4rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+@media only screen and (min-width: 780px) {
+    .first-section {
+        margin-left: 15vw;
+        margin-top: 20vh;
+        padding-right: 48px;
+    }
+
+    .second-section {
+        margin-top: 20vh;
+        margin-right: 15vw;
+    }
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@supports (display: grid) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    @media only screen and (min-width: 780px) {
+        .grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .first-section {
+            padding-right: 0px;
+        }
+    }
+}

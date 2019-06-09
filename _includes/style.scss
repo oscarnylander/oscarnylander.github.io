@@ -26,11 +26,6 @@ i {
     margin-right: 4px;
 }
 
-body {
-    opacity: 0;
-    transform: translateY(-100px);
-}
-
 .loaded {
     opacity: 1;
     transform: translateY(0px);
@@ -49,6 +44,51 @@ body {
     margin-top: 2rem;
     margin-left: 16px;
     margin-right: 16px;
+}
+
+.animation {
+    opacity: 0;
+    transform: translateY(-100px);
+}
+
+.animation-group-1.loaded {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 
+        opacity 0.5s cubic-bezier(0.550, 0.055, 0.675, 0.190),
+        transform 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+}
+
+.animation-group-2.loaded {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 
+        opacity 0.5s cubic-bezier(0.550, 0.055, 0.675, 0.190) 0.3s,
+        transform 1s cubic-bezier(0.190, 1.000, 0.220, 1.000) 0.3s;
+}
+
+.animation-group-3.loaded {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 
+        opacity 0.5s cubic-bezier(0.550, 0.055, 0.675, 0.190) 0.6s,
+        transform 1s cubic-bezier(0.190, 1.000, 0.220, 1.000) 0.6s;
+}
+
+.animation-group-4.loaded {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 
+        opacity 0.5s cubic-bezier(0.550, 0.055, 0.675, 0.190) 0.9s,
+        transform 1s cubic-bezier(0.190, 1.000, 0.220, 1.000) 0.9s;
+}
+
+.animation-group-5.loaded {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 
+        opacity 0.5s cubic-bezier(0.550, 0.055, 0.675, 0.190) 1.2s,
+        transform 1s cubic-bezier(0.190, 1.000, 0.220, 1.000) 1.2s;
 }
 
 .centered {

@@ -14,6 +14,15 @@ layout: compress
             {% endcapture %}
             {{ inline_css | scssify }}
         </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141769921-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-141769921-1');
+        </script>
         <script>window.onload = function() { document.querySelectorAll('.animation').forEach(function(node) { node.className += ' loaded' }) }</script>
         <title>Oscar Nylander</title>
     </head>

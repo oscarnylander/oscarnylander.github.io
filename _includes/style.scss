@@ -26,14 +26,6 @@ i {
     margin-right: 4px;
 }
 
-.loaded {
-    opacity: 1;
-    transform: translateY(0px);
-    transition: 
-        opacity 0.5s cubic-bezier(0.550, 0.055, 0.675, 0.190),
-        transform 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
-}
-
 .first-section {
     margin-top: 5rem;
     margin-left: 16px;

@@ -3,31 +3,6 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="Description" content="Oscar Nylander - Full stack developer based in Stockholm, specialized in Android development">
-        <link rel="icon" href="/favicon.png" type="image/png">
-        <style>
-            {% capture inline_css %}
-                {% include style.scss %}
-            {% endcapture %}
-            {{ inline_css | scssify }}
-        </style>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141769921-1"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-141769921-1');
-        </script>
-        <script>window.onload = function() { document.querySelectorAll('.animation').forEach(function(node) { node.className += ' loaded' }) }</script>
-        <title>Oscar Nylander</title>
-    </head>
-    <body>
-        {{content}}
-    </body>
+    {{content}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha256-BtbhCIbtfeVWGsqxk1vOHEYXS6qcvQvLMZqjtpWUEx8=" crossorigin="anonymous" />
 </html>

@@ -1,5 +1,5 @@
 ---
-layout: container
+layout: post
 ---
 # Wasting perhaps too much time on optimizing assets in Jekyll
 
@@ -19,7 +19,7 @@ alias serve="python3 -m http.server"
 Running it causes `$(pwd)` to be served on `http://localhost:8000`. A simple trick that sometimes
 comes in handy.
 
-Finally, it needed a domain, and voila: oscarnylander.dev was born.
+Finally, it needed a domain, and voila: [oscarnylander.dev](https://www.oscarnylander.dev) was born.
 
 ## The problem
 
@@ -112,3 +112,10 @@ sass:
 And all of a sudden, there was no longer any white space in the inlined CSS. Marvelous!
 
 ## The Payoff
+
+As I did not perform proper measurements of the size right before and right after
+enabling all the fixes, it's not entirely straight forward to say how much impact
+these steps actually had on the final result, or if it would have mattered at all
+post-gzipping, which Github Pages does enable by default. However, I did test the
+page in Lighthouse in the Chrome Dev Tools, and can proudly say that my page has
+100 in all categories (except for PWA which I don't necessarily care about). Nice!

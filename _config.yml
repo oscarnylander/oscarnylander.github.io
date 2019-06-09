@@ -4,3 +4,7 @@ sass:
   style: compressed
 plugins:
   - jekyll-sitemap
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

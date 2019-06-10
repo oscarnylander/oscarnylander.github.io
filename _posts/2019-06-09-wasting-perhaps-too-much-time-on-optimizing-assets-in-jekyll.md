@@ -5,6 +5,8 @@ layout: post
 
 \- But having a little fun in the process
 
+{{ page.date | date_to_string }}
+
 Due to a severe lack of things to do while my partner studies for her final exam for the semester,
 I decided to take a stab at making a personal web site. It started out as a very simple project,
 consisting of one HTML file, one CSS file, a font loaded from Google Fonts and some icons from

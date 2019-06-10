@@ -28,7 +28,7 @@ all, but I noticed when inspecting that my assets were naturally not minified. S
 decided to see if someone else had a satisfying solution to the problem at hand: minifying un-minified
 code served on a Github Page (without having to check in the minified code).
 
-From that research I learned some thing:
+From that research I learned a few things:
 
 1. Github Pages runs on Jekyll. I had heard about Jekyll before, I knew it was a static site generator
    written in Ruby, but I did not know much more.

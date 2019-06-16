@@ -38,7 +38,7 @@ for work.
 I've never quite liked vacuuming. I grew up in a fairly big house,
 and vacuuming was a time-consuming chore. Admittedly, I was quite
 lazy growing up (and maybe still am, to an extent). This distaste
-for vacuuming has stuck with my as I moved out. One evening while
+for vacuuming has stuck with me as I moved out. One evening while
 I was visiting my cousins, one of my cousins was talking about
 robot vacuums. He specifically recommended the Xiaomi RoboRock S5,
 which he had heard a lot of good things about. Despite the

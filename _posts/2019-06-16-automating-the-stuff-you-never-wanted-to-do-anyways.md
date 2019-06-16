@@ -4,6 +4,8 @@ layout: post
 
 # Automating the stuff you never wanted to do anyways
 
+{{ page.date | date_to_string }}
+
 One of my minor hobbies is home automation - I like to automate
 some of the aspects of my life. This is the story of how I
 'accumulated' my setup.

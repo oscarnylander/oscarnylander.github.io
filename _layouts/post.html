@@ -2,7 +2,14 @@
 layout: container
 ---
 {% capture title %}Oscar Nylander | {{ page.title }}{% endcapture %}
-{% include header.html style="post.scss" title=title description=title type="blog" %}
+{% capture description %}
+{% if page.description %}
+{{page.description}}
+{% else %}
+{{title}}
+{% endif %}
+{% endcapture %}
+{% include header.html style="post.scss" title=title description=description type="blog" %}
 <body>
     <a href="/">&lt; Start</a>
     <div class="content">

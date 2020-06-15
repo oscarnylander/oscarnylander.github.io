@@ -1,6 +1,7 @@
 ---
 title: "From Zero to TDD: An Android-story"
 layout: post
+description: A step-by-step tutorial on getting a TDD-environment up and running for Android, for a project using MVVM, Apollo and Koin.
 ---
 
 # From Zero to TDD: An Android-story

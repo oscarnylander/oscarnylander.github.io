@@ -8,6 +8,8 @@ description: "A walkthrough on how I triaged a bug in an app I use, using androi
 
 {{ page.date | date_to_string }}
 
+See the bottom for an update on how this story developed.
+
 I'm generally not a big fan of social media. One exception I make to that rule, however,
 is HackerNews, a fantastic source of news and discussion for people with similar
 interests to me. Like everyone else, I've moved towards using my phone more and more
@@ -200,3 +202,11 @@ and stopped at this point.
 
 I've contacted the author of the app about the root cause, and offered
 to write a fix myself, should I get access to the source code.
+
+
+## Update
+
+After having contacted the author of Harmonic, they were able to develop
+a fix for this issue, and it has been successfully deployed to the Play Store.
+
+I can now type HackerNews-comments of any length without any issues. Good times!

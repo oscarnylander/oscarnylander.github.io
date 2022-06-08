@@ -18,7 +18,7 @@ unused resources in our Android-repository.
 Since this was merely a small side-project, I did not quite have the time to implement
 a checker for which resources were unused. Luckily, I could leverage the excellent
 gradle plugin called `gradle-unused-resources-remover-plugin`. You can find this plugin
-at https://github.com/konifar/gradle-unused-resources-remover-plugin, it does basically
+[here](https://github.com/konifar/gradle-unused-resources-remover-plugin), it does basically
 all of the heavy lifting.
 
 ## How to call a plugin that is not added to your project
@@ -41,7 +41,7 @@ create more of this category of Github Actions to repositories with Gradle.
 
 After having included the plugin, we can merely call it, and have it update the
 workspace. We can then leverage the `create-pull-request`-action to create a PR with
-these changes (you can find it at https://github.com/marketplace/actions/create-pull-request).
+these changes (you can find it [here](https://github.com/marketplace/actions/create-pull-request)).
 The action does not create any PR if no changes are detected in the repository.
 
 A sharp eye may notice that, since we're making some modifications to the build scripts,
@@ -70,10 +70,8 @@ out some time after our morning standup. Nice!
 ## Try it out yourself
 
 If this sounds like something you'd like to integrate into your repository, you're in luck -
-this action is available for use on Github. You can find it here: 
-https://github.com/HedvigInsurance/gradle-unused-resources-action/
+this action is available for use on Github. You can find it [here](https://github.com/HedvigInsurance/gradle-unused-resources-action/).
 
-For example usage, you can check out where we call this action in our repository, here:
-https://github.com/HedvigInsurance/android/blob/4e00a79dbdf065a3f3802b8c5be25d8a7813c849/.github/workflows/unused-resources.yml
+For example usage, you can check out where we call this action in our repository, [here](https://github.com/HedvigInsurance/android/blob/4e00a79dbdf065a3f3802b8c5be25d8a7813c849/.github/workflows/unused-resources.yml).
 
 Should you encounter any issues, we welcome PRs in the action repository.

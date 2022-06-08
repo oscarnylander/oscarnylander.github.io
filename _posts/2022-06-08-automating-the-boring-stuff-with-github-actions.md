@@ -6,6 +6,8 @@ description: "How I built a Github Action to automatically remove unused resourc
 
 # Automating the boring stuff with Github Actions
 
+{{ page.date | date_to_string }}
+
 Recently, at work, I got inspired after having added Renovate to our android repository,
 and decided that I wanted to increase the level of boring stuff-automation for our team.
 This is the story on how I used Github Actions to automatically and periodically remove
